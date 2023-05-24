@@ -10,9 +10,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ReviewDto {
-    private Long id;
+	private Long id;
     private String comment;
     private int rating;
-    private UserDto user;
-    private ItineraryDto itinerary;
+    private Long userId;
+    private Long itineraryId;
 }

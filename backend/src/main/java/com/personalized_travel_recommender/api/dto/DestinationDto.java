@@ -13,8 +13,19 @@ import lombok.Setter;
 @AllArgsConstructor
 public class DestinationDto {
 	private Long id;
-    private String name;
-    private String description;
-    private String imageUrl;
+    private String locationName;
+    private Long itineraryId;
+    private List<String> videosAndImagesLink;
+    private List<String> hotels;
+    private List<String> restaurants;
+    private String famousFor;
+    private double totalSpend;
+    private String bestTimeToVisit;
+    private int minimumTimeSpend;
     private List<String> tags;
+    private int totalTimeSpend;
+    private double totalSpendMoney;
+    private String weatherDetail;
+    private String occasion;
+    private List<String> bestFor;
 }
