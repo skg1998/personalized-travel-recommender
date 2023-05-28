@@ -1,10 +1,46 @@
-# Frontend
+# EasyAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+
+## Usage
+
+- Rename `EasyAngular` and `ptr-frontend` with your project name
+- Place favicon generated with [RealFavIconGenerator](https://realfavicongenerator.net/) into `src/assets/img/favicon` folder
+
+## Tools
+
+- Generate models form JSON - https://app.quicktype.io/
+- Generate favicon from SVG - https://realfavicongenerator.net/
+
+## Boilerplate content
+
+### Source code
+
+- Pages :
+  - Auth (login, forgot pwd, validate account) with 2 possible layouts
+  - Home
+  - 404
+- Shared components
+  - Blocks : toast & progress bar
+  - Forms : confirm
+  - Layouts : page & header
+  - Modals : wrapper
+- Enums : endpoints / environments / storage keys
+- Helpers : storage / string
+- Services : app (for requests) / store (for state management)
+- I18n : en.json
+
+### Packages
+
+- [Bootstrap 5](https://getbootstrap.com/) scss style & [ng-bootstrap](https://ng-bootstrap.github.io/) components
+- [Axios](https://github.com/axios/axios) fetch wrapper
+- [ArrayTyper](https://github.com/FranzStrudel/-caliatys-array-typer)
+- [angular-svg-icon](https://github.com/czeckd/angular-svg-icon)
+- [ngx-translate](https://github.com/ngx-translate/core)
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
