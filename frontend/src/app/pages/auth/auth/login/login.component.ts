@@ -73,6 +73,7 @@ export class LoginComponent {
 
     const email = this.formGroup.controls.email.getRawValue();
     const password = this.formGroup.controls.password.getRawValue();
+
     const success = await this.appService.authenticate(email, password);
 
     this.storeService.setIsLoading(false);

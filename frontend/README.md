@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage
 
-- Rename `EasyAngular` and `ptr-frontend` with your project name
+- Rename `ptr-frontend` with your project name
 - Place favicon generated with [RealFavIconGenerator](https://realfavicongenerator.net/) into `src/assets/img/favicon` folder
 
 ## Tools
