@@ -15,7 +15,7 @@ import com.personalized_travel_recommender.api.dto.ItineraryDTO;
 import com.personalized_travel_recommender.api.dto.RecommendationRequest;
 import com.personalized_travel_recommender.api.service.RecommendationService;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/v1/recommendations")
 public class RecommendationController {

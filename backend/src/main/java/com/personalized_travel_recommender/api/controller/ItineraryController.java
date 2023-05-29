@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.personalized_travel_recommender.api.dto.ItineraryDTO;
 import com.personalized_travel_recommender.api.service.ItineraryService;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/v1/itineraries")
 public class ItineraryController {

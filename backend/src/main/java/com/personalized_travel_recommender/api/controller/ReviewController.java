@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.personalized_travel_recommender.api.dto.ReviewDto;
 import com.personalized_travel_recommender.api.service.ReviewService;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 @RestController
 @RequestMapping("api/v1/reviews")
 public class ReviewController {
